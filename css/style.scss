@@ -1,0 +1,149 @@
+@import "reset";
+@import "variables";
+
+body{
+    background-color: $primary-color;
+    color: $text-primary-color;
+}
+h1{
+    font-weight: 950;
+    font-size: $big-font;
+    margin-top: -3vh;
+}
+.h2{
+    font-size: $big-font / 1.1;
+    font-weight: 700;
+    color: $text-secondary-color;
+}
+
+#hero{
+    padding-top: 21vh;
+    margin-bottom: 21vh;
+    .socialMedia{
+        margin-top: 40vh;
+        color: lighten($text-secondary-color, 15%);
+    }
+    img{
+        margin: 1vh;
+        &:hover{
+            filter: invert(50%);
+            transition: 0.2s;
+        }
+    }
+}
+.technology{
+    display: inline-block;
+    padding: 1vh;
+    background-color: aqua;
+    color: $primary-color;
+    margin-bottom: 1vh;
+    border: 1px solid aqua;
+    &:hover{
+        border: 1px solid aqua;
+        background-color: transparent;
+        color: white;
+        transition: 0.1s;
+        
+    }
+}
+#about{
+    background-color: $secondary-color;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .h1{
+        font-weight: 600;
+    }
+    p{
+        padding-bottom: 5vh;
+        border-bottom: 1px solid aqua;
+        &:first-child{
+            border: none;
+        }
+    }
+    img{
+        width: 80%;
+        margin: 10vw;
+       margin-top: 7vh;
+        border-radius: 50%;
+        filter: brightness(85%);
+        box-shadow:20px 10px aqua;
+    }
+}
+#portfolio{
+    .h1{
+        font-weight: 600;
+        color: white;
+    }
+    p{
+        color:aqua;
+    }
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    .portfolioCard{
+        background-image: url("../img/artive.png");
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        height: 400px;
+        max-width: 99%;
+        margin: auto;
+        //border: 10px solid transparent;
+        object-fit: contain;
+        p{
+            visibility: hidden;
+            padding-top: 160px;
+        }
+        &:hover{
+            filter: brightness(85%);
+            transition: 0.2s;
+            p{
+                filter: none;
+                visibility: visible;
+                color: white;
+                font-size: 24px;
+                font-weight: 600;
+                text-shadow: 2px 2px 8px black;
+            }
+        }
+        &:nth-child(2){
+            background-image: url("../img/gamersarena.png");
+        }
+        &:last-child{
+            background-image: url("../img/shop.jpg");
+        }
+    }
+}
+
+#github{
+    background-color: aqua;
+    div{
+        padding-top: 2vh;
+    padding-bottom: 2vh;
+    }
+    color: $primary-color;
+    div:first-child{
+        text-align: right;
+    }
+    div:last-child{
+        text-align: left;
+    }
+    img{
+        width: 300px;
+        filter: brightness(8%);
+    }
+    .h1{
+        font-weight: 600;
+    }
+    p{
+        margin: 0 auto;
+    }
+}
+footer{
+    text-align: center;
+    margin:15px 0;
+}

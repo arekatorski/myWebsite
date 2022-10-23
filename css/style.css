@@ -1,0 +1,157 @@
+h1, h2, body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #1b1f24;
+  color: white;
+}
+
+h1 {
+  font-weight: 950;
+  font-size: 9vh;
+  margin-top: -3vh;
+}
+
+.h2 {
+  font-size: 8.1818181818vh;
+  font-weight: 700;
+  color: #3f454e;
+}
+
+#hero {
+  padding-top: 21vh;
+  margin-bottom: 21vh;
+}
+#hero .socialMedia {
+  margin-top: 40vh;
+  color: #616a78;
+}
+#hero img {
+  margin: 1vh;
+}
+#hero img:hover {
+  filter: invert(50%);
+  transition: 0.2s;
+}
+
+.technology {
+  display: inline-block;
+  padding: 1vh;
+  background-color: aqua;
+  color: #1b1f24;
+  margin-bottom: 1vh;
+  border: 1px solid aqua;
+}
+.technology:hover {
+  border: 1px solid aqua;
+  background-color: transparent;
+  color: white;
+  transition: 0.1s;
+}
+
+#about {
+  background-color: #232b35;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#about a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+#about .h1 {
+  font-weight: 600;
+}
+#about p {
+  padding-bottom: 5vh;
+  border-bottom: 1px solid aqua;
+}
+#about p:first-child {
+  border: none;
+}
+#about img {
+  width: 80%;
+  margin: 10vw;
+  margin-top: 7vh;
+  border-radius: 50%;
+  filter: brightness(85%);
+  box-shadow: 20px 10px aqua;
+}
+
+#portfolio {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+#portfolio .h1 {
+  font-weight: 600;
+  color: white;
+}
+#portfolio p {
+  color: aqua;
+}
+#portfolio .portfolioCard {
+  background-image: url("../img/artive.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  max-width: 99%;
+  margin: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+#portfolio .portfolioCard p {
+  visibility: hidden;
+  padding-top: 160px;
+}
+#portfolio .portfolioCard:hover {
+  filter: brightness(85%);
+  transition: 0.2s;
+}
+#portfolio .portfolioCard:hover p {
+  filter: none;
+  visibility: visible;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  text-shadow: 2px 2px 8px black;
+}
+#portfolio .portfolioCard:nth-child(2) {
+  background-image: url("../img/gamersarena.png");
+}
+#portfolio .portfolioCard:last-child {
+  background-image: url("../img/shop.jpg");
+}
+
+#github {
+  background-color: aqua;
+  color: #1b1f24;
+}
+#github div {
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+#github div:first-child {
+  text-align: right;
+}
+#github div:last-child {
+  text-align: left;
+}
+#github img {
+  width: 300px;
+  filter: brightness(8%);
+}
+#github .h1 {
+  font-weight: 600;
+}
+#github p {
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  margin: 15px 0;
+}/*# sourceMappingURL=style.css.map */
