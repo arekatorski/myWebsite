@@ -74,50 +74,50 @@ h1{
         box-shadow:20px 10px aqua;
     }
 }
-#portfolio{
-    .h1{
-        font-weight: 600;
-        color: white;
-    }
-    p{
-        color:aqua;
-    }
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    .portfolioCard{
-        background-image: url("../img/artive.png");
-        background-repeat: no-repeat;
-        background-position:center;
-        background-size: cover;
-        height: 400px;
-        max-width: 99%;
-        margin: auto;
-        //border: 10px solid transparent;
-        object-fit: contain;
-        p{
-            visibility: hidden;
-            padding-top: 160px;
-        }
-        &:hover{
-            filter: brightness(85%);
-            transition: 0.2s;
-            p{
-                filter: none;
-                visibility: visible;
-                color: white;
-                font-size: 24px;
-                font-weight: 600;
-                text-shadow: 2px 2px 8px black;
-            }
-        }
-        &:nth-child(2){
-            background-image: url("../img/gamersarena.png");
-        }
-        &:last-child{
-            background-image: url("../img/shop.jpg");
-        }
-    }
-}
+// #portfolio{
+//     .h1{
+//         font-weight: 600;
+//         color: white;
+//     }
+//     p{
+//         color:aqua;
+//     }
+//     padding-top: 10vh;
+//     padding-bottom: 10vh;
+//     .portfolioCard{
+//         background-image: url("../img/artive.png");
+//         background-repeat: no-repeat;
+//         background-position:center;
+//         background-size: cover;
+//         height: 400px;
+//         max-width: 99%;
+//         margin: auto;
+//         //border: 10px solid transparent;
+//         object-fit: contain;
+//         p{
+//             visibility: hidden;
+//             padding-top: 160px;
+//         }
+//         &:hover{
+//             filter: brightness(85%);
+//             transition: 0.2s;
+//             p{
+//                 filter: none;
+//                 visibility: visible;
+//                 color: white;
+//                 font-size: 24px;
+//                 font-weight: 600;
+//                 text-shadow: 2px 2px 8px black;
+//             }
+//         }
+//         &:nth-child(2){
+//             background-image: url("../img/gamersarena.png");
+//         }
+//         &:last-child{
+//             background-image: url("../img/shop.jpg");
+//         }
+//     }
+// }
 
 #github{
     background-color: aqua;
