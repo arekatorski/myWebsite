@@ -81,7 +81,7 @@ h1 {
   box-shadow: 20px 10px aqua;
 }
 
-#portfolio {
+/* #portfolio {
   padding-top: 10vh;
   padding-bottom: 10vh;
 }
@@ -125,7 +125,7 @@ h1 {
 #portfolio .portfolioCard:last-child {
   background-image: url("../img/shop.jpg");
 }
-
+ */
 #github {
   background-color: aqua;
   color: #1b1f24;
